@@ -1,0 +1,6 @@
+@MockProbe.Api_HostAddress = http://localhost:0
+
+GET {{MockProbe.Api_HostAddress}}/health
+Accept: application/json
+
+###
